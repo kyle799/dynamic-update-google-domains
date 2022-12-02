@@ -1,0 +1,8 @@
+[Unit]
+Description=Dynamic update for google dns
+After=network.target
+[Service]
+ExecStart=/root/dynamic-update.py
+Restart=always
+[Install]
+WantedBy=default.target
