@@ -6,7 +6,7 @@ import sys
 
 
 print("started")
-#add username/password from domains.google.com after setting up 
+#add username/password from domains.google.com after setting up under DNS>Dynamic DNS
 username=""
 password=""
 #get hostname and concat fqdn if not
